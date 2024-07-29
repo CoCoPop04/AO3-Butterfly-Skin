@@ -1,0 +1,93 @@
+/* changes the header divider to an image */
+#header ul.primary {
+  box-shadow: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #3e808e url(https://i.pinimg.com/564x/ac/fb/26/acfb26d9a6964669c5f2d197a2a8f434.jpg);
+  background-attachment: fixed;
+}
+
+
+/* edit background color of all relationship tags + color when hovered over */
+.tags li.relationships:nth-of-type(3n+1) a.tag {
+  background-color: #79abb5;
+}
+
+.tags li.relationships:nth-of-type(3n+2) a.tag {
+  background-color: #79abb5;
+}
+
+.tags li.relationships:nth-of-type(3n+3) a.tag {
+  background-color: #79abb5;
+}
+
+.tags li.freeforms a.tag:hover,
+.tags li.characters a.tag:hover,
+.tags li.relationships a.tag:hover {
+  background-color: #3e808e;
+  opacity: 0.9;
+  color: white;
+}
+
+
+/* changes the AO3 error message banner's color */
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.reading h4.viewed {
+  background: #d1edef;
+}
+
+
+/* changes the ao3 logo to the image linked */
+#header .logo {
+  margin-top: 4px;
+  background: url("https://images.squidge.org/images/2024/07/28/IMG_1007.png");
+  background-size: 61px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 42px 2px 0 61px;
+  background-repeat: no-repeat;
+}
+
+
+/* changes the text color of the visited links*/
+a:visited,
+div#header.module h4 {
+  color: #525252;
+}
+
+/* chnages the color of links when hovered over */
+a:hover {
+  color: #a3cdd0;
+}
+
+/* changes the colour of the visited links when hovered over */
+a:visited:hover {
+  color: #b8b8b8;
+}
+
+
+/* this edits the opacity of the white background of the statistics chart*/
+#stat_chart svg rect:first-of-type {
+  opacity: 0%;
+}
+
+/* changes the red bars in the statistics chart to aqua (change hue-rotation to edit color) */
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
+  filter: hue-rotate(190deg);
+  opacity: 100% !important;
+}
+
+/* changes the color of the statistics chart bars when hovered over */
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:hover {
+  filter: hue-rotate(185deg);
+}
