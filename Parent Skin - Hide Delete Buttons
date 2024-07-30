@@ -1,0 +1,26 @@
+/* Hides the 'Delete Account' button on the profile page from: https://www.tumblr.com/miraclesnail/740611892651999232/i-dont-know-who-this-will-ever-help-but-theres?source=share */
+div#main.profile-show.dashboard.region ul.navigation.actions li:nth-child(5) {
+  display: none !important;
+}
+
+/* Hides the 'Delete Work' and 'Orphan Work' buttons on the edit pages */
+div#main.works-edit.region ul.navigation.actions li:nth-child(2),
+div#main.works-edit.region ul.navigation.actions li:nth-child(3) {
+  display: none !important;
+}
+
+/* Hides the 'Delete Work' and 'Orphan Work' buttons on the edit pages */
+div#main.works-show_multiple.dashboard.region p.submit input:nth-child(2),
+div#main.works-show_multiple.dashboard.region p.submit input:nth-child(3) {
+  display: none !important;
+}
+
+/* Hides the 'Delete Series' button */
+div#main.series-show.region ul.navigation.actions li:nth-child(2) {
+  display: none !important;
+}
+
+/* Hides the 'Orphan Series' button */
+div#main.series-show.region ul.navigation.actions li:nth-child(4) {
+  display: none !important;
+}
