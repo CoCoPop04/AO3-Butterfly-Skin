@@ -1,0 +1,15 @@
+/* Hides /Reader works From: https://www.tumblr.com/ao3css/719975361564311552/filtershashreader?source=share */
+li:has(a.tag[href*="*s*Reader/" i ]),
+li:has(a.tag[href*="/Reader*s*" i ]) {
+  display: none !important;
+}
+
+/* Hides the muted accounts banner From: https://www.tumblr.com/ao3css/726662674346278912/if-you-want-to-remove-the-muted-users-notice-you?source=share */
+p.muted.notice {
+  display: none !important;
+}
+
+/* Hides the 'Follow' section on the AO3 homepage From: https://www.tumblr.com/ao3css/743533011690274816/hello-is-there-a-way-i-can-hide-follow-us-on-my?source=share */
+.social.module {
+  display: none;
+}
