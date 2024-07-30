@@ -1,0 +1,6 @@
+/* From https://www.tumblr.com/sunfoxfic/724836598397747200/if-you-hate-fics-that-are-in-like-a-million?source=share */
+
+dl.work.meta.group dd.collections {
+  max-height: 4em;
+  overflow: auto;
+}
