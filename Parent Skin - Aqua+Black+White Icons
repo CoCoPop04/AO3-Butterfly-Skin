@@ -1,0 +1,182 @@
+/* Code adapted from: https://archiveofourown.org/works/54831748 */
+
+.navigation.actions .rss span,
+.required-tags .rating-notrated,
+.required-tags .rating-general-audience,
+.required-tags .rating-explicit,
+.required-tags .rating-mature,
+.required-tags .rating-teen,
+.required-tags .category-femslash,
+.required-tags .category-gen,
+.required-tags .category-slash,
+.required-tags .category-none,
+.required-tags .category-het,
+.required-tags .category-multi,
+.required-tags .category-other,
+.required-tags .complete-no,
+.required-tags .complete-yes,
+.required-tags .warning-yes,
+.required-tags .warning-no,
+.required-tags .warning-choosenotto,
+.required-tags .external-work,
+.status .private .text,
+.status .public,
+.status .hidden,
+.status .rec,
+.status .count,
+.index .skins .icon,
+.index .mystery .icon,
+.index .tagset .icon,
+.comment .icon .anonymous,
+.comment .icon .visitor,
+.abbreviated .icon .visitor,
+.abbreviated .icon .anonymous,
+.skins .primary .icon,
+.admin .primary .icon,
+.tagset .primary .icon,
+.tag .primary .icon,
+p.kudos,
+#symbols-key dl img,
+#bookmark-symbols-key img,
+.icon[src="/images/skins/iconsets/default/icon_user.png"],
+.collection .icon img[src="/images/skins/iconsets/default/icon_collection.png"],
+img[src="/images/lockblue.png"] {
+  background-image: url("https://images.squidge.org/images/2024/07/28/IMG_1018.png");
+  background-size: 200px 835px;
+}
+
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px;
+}
+
+img[src="/images/skins/iconsets/default/rating-notrated.png"],
+img[src="/images/skins/iconsets/default/category-none.png"],
+img[src="/images/skins/iconsets/default/warning-no.png"] {
+  background-position: -150px 0px;
+}
+
+img[src="/images/skins/iconsets/default/rating-general-audience.png"] {
+  background-position: -50px -25px;
+}
+
+img[src="/images/skins/iconsets/default/rating-teen.png"] {
+  background-position: 0px -25px;
+}
+
+img[src="/images/skins/iconsets/default/rating-mature.png"] {
+  background-position: -75px -25px;
+}
+
+img[src="/images/skins/iconsets/default/rating-explicit.png"] {
+  background-position: -25px -25px;
+}
+
+img[src="/images/skins/iconsets/default/category-femslash.png"] {
+  background-position: -25px 0px;
+}
+
+img[src="/images/skins/iconsets/default/category-het.png"] {
+  background-position: -75px 0px;
+}
+
+img[src="/images/skins/iconsets/default/category-gen.png"] {
+  background-position: -50px 0px;
+}
+
+img[src="/images/skins/iconsets/default/category-multi.png"] {
+  background-position: -100px 0px;
+}
+
+img[src="/images/skins/iconsets/default/category-other.png"] {
+  background-position: -125px 0px;
+}
+
+img[src="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  background-position: -125px -25px;
+}
+
+img[src="/images/skins/iconsets/default/warning-yes.png"] {
+  background-position: -150px -25px;
+}
+
+img[src="/images/skins/iconsets/default/warning-external-work.png"] {
+  background-position: -75px -50px;
+}
+
+img[src="/images/skins/iconsets/default/complete-no.png"] {
+  background-position: -100px -25px;
+}
+
+img[src="/images/skins/iconsets/default/complete-yes.png"] {
+  background-position: -175px -25px;
+}
+
+img[src="/images/skins/iconsets/default/bookmark-rec.png"] {
+  background-position: -100px -50px;
+}
+
+img[src="/images/skins/iconsets/default/bookmark-public.png"] {
+  background-position: -125px -50px;
+}
+
+img[src="/images/skins/iconsets/default/bookmark-private.png"] {
+  background-position: -175px -50px;
+}
+
+img[src="/images/skins/iconsets/default/bookmark-hidden.png"] {
+  background-position: -150px -50px;
+}
+
+.icon[src="/images/skins/iconsets/default/icon_user.png"],
+.collection .icon img[src="/images/skins/iconsets/default/icon_collection.png"],
+img[src="/images/lockblue.png"] {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.icon[src="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 100px 0 0 100px;
+  background-position: 0px -75px;
+}
+
+.index .picture .icon[src="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 55px 0 0 55px;
+  background-position: 0px -525px;
+}
+
+.abbreviated .icon[src="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 75px 0 0 75px;
+  background-position: 0px -375px;
+}
+
+#greeting .icon[src="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 1.786em 0 0 1.786em;
+  background-position: 0 -19px;
+  background-size: 201% !important;
+}
+
+.collection .icon img[src="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 100px 0 0 100px;
+  background-position: -100px -175px;
+}
+
+.collection.index .icon[src="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 55px 0 0 55px;
+  background-position: -55px -525px;
+}
+
+img[src="/images/lockblue.png"] {
+  padding: 15px 0 0 15px;
+  background-position: -155px -305px;
+}
+
+#header .logo {
+  background: url("/images/logo.png");
+  background-size: 61px;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 42px 0 0 61px;
+}
